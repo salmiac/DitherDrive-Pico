@@ -81,33 +81,33 @@ graph TD
     %% Power distribution
     V24 --> TVS
     TVS --> GND
-    V24 --> Traco
-    Traco --> GND
-    Traco --> V5
+    V24 -->|"Vin (Pin 1)"| Traco
+    Traco -->|"GND (Pin 2)"| GND
+    Traco -->|"Vout (Pin 3)"| V5
 
     %% Logic power
     V5 -->|"VSYS (Pin 39)"| Pico
     V5 -->|"VDD"| Driver
-    Pico -->|"3.3V OUT (Pin 36)"| INA
-    Pico -->|"3.3V OUT (Pin 36)"| Pot
+    Pico -->|"3.3V OUT (Pin 36) -> VCC"| INA
+    Pico -->|"3.3V OUT (Pin 36) -> VCC"| Pot
 
     %% Analog setpoint input
-    Pot --> RC_R
+    Pot -->|"Wiper"| RC_R
     RC_R --> RC_C
     RC_C --> GND
     RC_R -->|"GP26 (ADC0 / Pin 31)"| Pico
 
     %% Control lines
-    Pico -- "GP4 (SDA)" --> INA
-    Pico -- "GP5 (SCL)" --> INA
-    Pico -- "GP15 (PWM / Pin 20)" --> Driver
+    Pico -- "GP4 (SDA) -> SDA" --> INA
+    Pico -- "GP5 (SCL) -> SCL" --> INA
+    Pico -- "GP15 (PWM / Pin 20) -> IN" --> Driver
 
     %% Load power path
     V24 -->|"VIN+"| INA
     INA -->|"VIN-"| Coil
-    Coil --> MOSFET
-    MOSFET --> GND
-    Driver -->|Gate| MOSFET
+    Coil -->|"Drain"| MOSFET
+    MOSFET -->|"Source"| GND
+    Driver -->|"OUT -> Gate"| MOSFET
 
     %% Fast Flyback path (anti-parallel to Coil)
     Coil-.-|Node 2: Drain| UF5404
@@ -115,11 +115,11 @@ graph TD
     Zener-.-|Anode to Node 1: VIN-| Coil
 
     %% GND references
-    Pico --- GND
-    Pot --- GND
-    INA --- GND
-    Driver --- GND
-    MOSFET --- GND
+    Pico ---|"GND (Pin 38)"| GND
+    Pot ---|"GND"| GND
+    INA ---|"GND"| GND
+    Driver ---|"GND"| GND
+    MOSFET ---|"Source"| GND
 ```
 
 ### 5. Ohjelmointi (PlatformIO)
