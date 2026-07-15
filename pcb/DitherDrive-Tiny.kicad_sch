@@ -842,171 +842,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N53xxB"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N53xxB"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n5345b.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "5000mW Zener Diode, DO-201"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "1N53xxB_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N53xxB_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:UF5408"
 			(pin_numbers
 				(hide yes)
@@ -3536,25 +3371,13 @@
 		(uuid "248f562c-1bb7-4618-9b9c-cbf1980e56d6")
 	)
 	(junction
-		(at 116.84 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43b3807e-0dae-4bda-b6df-8cf8d8f0f968")
-	)
-	(junction
-		(at 38.1 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "451ed809-f3fe-482e-a4f9-3f1784afa467")
-	)
-	(junction
 		(at 162.56 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5af87884-b3ce-4f44-9bf1-aecb109d7e10")
 	)
 	(junction
-		(at 116.84 187.96)
+		(at 116.84 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dac281c-15f9-42f8-a61d-18abb45cb8cf")
@@ -3570,6 +3393,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c65d4e9-f6b9-416b-8945-e4670c24615a")
+	)
+	(junction
+		(at 90.17 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17e5848-9a81-4f6c-a98b-f956be42af5a")
+	)
+	(junction
+		(at 116.84 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f21e69-c2cb-448f-af2a-9d326f0f0752")
 	)
 	(junction
 		(at 162.56 101.6)
@@ -3599,33 +3434,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 165.1) (xy 116.84 166.37)
+			(xy 116.84 146.05) (xy 116.84 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "18e1f3b5-6b8a-4f92-8c60-6273466a1722")
-	)
-	(wire
-		(pts
-			(xy 38.1 50.8) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a965991-5bb8-4715-b4a0-8c2e5208b973")
-	)
-	(wire
-		(pts
-			(xy 101.6 160.02) (xy 109.22 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a9e5293-81c4-40c5-9ed1-462fcd6b5b82")
 	)
 	(wire
 		(pts
@@ -3689,7 +3504,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 187.96) (xy 116.84 187.96)
+			(xy 69.85 171.45) (xy 116.84 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +3524,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 187.96) (xy 129.54 187.96)
+			(xy 116.84 171.45) (xy 129.54 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3726,6 +3541,16 @@
 			(type default)
 		)
 		(uuid "48166cee-118d-4eb2-a19c-aeb93d2d16e0")
+	)
+	(wire
+		(pts
+			(xy 116.84 146.05) (xy 129.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49207cfb-540f-499b-8938-cc6ede70255b")
 	)
 	(wire
 		(pts
@@ -3749,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 101.6 123.19)
+			(xy 100.33 123.19) (xy 106.68 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 91.44) (xy 69.85 187.96)
+			(xy 69.85 91.44) (xy 69.85 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3789,6 +3614,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 146.05) (xy 101.6 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d1936a-0f00-4870-ba5e-5f5353ecd344")
+	)
+	(wire
+		(pts
 			(xy 90.17 115.57) (xy 60.96 115.57)
 		)
 		(stroke
@@ -3796,16 +3631,6 @@
 			(type default)
 		)
 		(uuid "7accf351-176e-41f3-9ab2-e404bb5feb13")
-	)
-	(wire
-		(pts
-			(xy 116.84 166.37) (xy 129.54 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b5b3f0-8d8d-4d44-957c-6ed0b3ec6ea7")
 	)
 	(wire
 		(pts
@@ -3839,23 +3664,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 154.94) (xy 116.84 148.59)
+			(xy 116.84 146.05) (xy 111.76 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91bf7bb6-6814-40c4-9b1c-5481ed729612")
-	)
-	(wire
-		(pts
-			(xy 116.84 185.42) (xy 116.84 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30fe1d1-5543-4024-bdd5-036fd3053808")
+		(uuid "a0d91ad3-bb84-4732-b75e-267f0227eb17")
 	)
 	(wire
 		(pts
@@ -3869,6 +3684,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 146.05) (xy 90.17 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5abd11b-eeac-44c3-99c6-bad1ad9a1fe3")
+	)
+	(wire
+		(pts
 			(xy 151.13 101.6) (xy 162.56 101.6)
 		)
 		(stroke
@@ -3879,16 +3704,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 148.59) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6ac10d-e640-4c76-bd8d-7c9cf4484e0a")
-	)
-	(wire
-		(pts
 			(xy 133.35 45.72) (xy 133.35 50.8)
 		)
 		(stroke
@@ -3896,16 +3711,6 @@
 			(type default)
 		)
 		(uuid "adc8128e-359f-4828-8261-9d1d8a0a4194")
-	)
-	(wire
-		(pts
-			(xy 116.84 166.37) (xy 116.84 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade40557-f62d-4c3f-b892-6be04c00f83a")
 	)
 	(wire
 		(pts
@@ -3959,7 +3764,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 135.89) (xy 90.17 142.24)
+			(xy 90.17 135.89) (xy 90.17 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 175.26) (xy 116.84 177.8)
+			(xy 116.84 158.75) (xy 116.84 171.45)
 		)
 		(stroke
 			(width 0)
@@ -3999,7 +3804,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 123.19) (xy 101.6 160.02)
+			(xy 106.68 123.19) (xy 106.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4146,88 +3951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N53xxB")
-		(at 116.84 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fff32ed-0e8c-4282-b2b2-0fcd502b799b")
-		(property "Reference" "D4"
-			(at 119.38 180.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N53xxB"
-			(at 119.38 182.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201_P15.24mm_Horizontal"
-			(at 121.285 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n5345b.pdf"
-			(at 116.84 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5000mW Zener Diode, DO-201"
-			(at 116.84 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a5a1113-a4e0-4850-927d-dcbe67b44756")
-		)
-		(pin "2"
-			(uuid "f5a7db88-9592-4894-b1f0-397f9c3262e1")
-		)
-		(instances
-			(project "DitherDrive-Tiny"
-				(path "/9b3cf2e5-4e78-4395-8e8e-a2a912e5c3d6"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 90.17 102.87 0)
 		(unit 1)
@@ -4307,7 +4030,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF540N")
-		(at 114.3 160.02 0)
+		(at 106.68 143.51 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4318,29 +4041,27 @@
 		(fields_autoplaced yes)
 		(uuid "600b7505-b6a3-4f3e-885b-f81772296ac8")
 		(property "Reference" "Q1"
-			(at 120.65 158.7499 0)
+			(at 106.68 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "IRF540N"
-			(at 120.65 161.2899 0)
+			(at 106.68 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 119.38 161.925 0)
+			(at 104.775 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4353,7 +4074,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf540n.pdf"
-			(at 119.38 163.83 0)
+			(at 102.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4365,7 +4086,7 @@
 			)
 		)
 		(property "Description" "33A Id, 100V Vds, HEXFET N-Channel MOSFET, TO-220"
-			(at 114.3 160.02 0)
+			(at 106.68 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4116,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 129.54 166.37 270)
+		(at 129.54 146.05 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4406,7 +4127,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a7299b-96ea-4fa2-b185-1ce0edc6a9e2")
 		(property "Reference" "#PWR08"
-			(at 125.73 166.37 0)
+			(at 125.73 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4138,7 @@
 			)
 		)
 		(property "Value" "OUT -"
-			(at 133.35 166.3699 90)
+			(at 133.35 146.0499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4428,7 +4149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 166.37 0)
+			(at 129.54 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4439,7 +4160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 166.37 0)
+			(at 129.54 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 129.54 166.37 0)
+			(at 129.54 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4474,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "Diode:UF5408")
-		(at 116.84 171.45 270)
+		(at 116.84 154.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4485,29 +4206,29 @@
 		(fields_autoplaced yes)
 		(uuid "6eda567d-bdd5-4879-96bd-a96014b16425")
 		(property "Reference" "D2"
-			(at 119.38 170.1799 90)
+			(at 119.38 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "UF5408"
-			(at 119.38 172.7199 90)
+			(at 119.38 156.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 112.395 171.45 0)
+			(at 121.285 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4518,7 +4239,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
-			(at 116.84 171.45 0)
+			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4529,7 +4250,7 @@
 			)
 		)
 		(property "Description" "1000V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
-			(at 116.84 171.45 0)
+			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4540,7 +4261,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 116.84 171.45 0)
+			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4551,7 +4272,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 171.45 0)
+			(at 116.84 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "power:LINE")
-		(at 129.54 187.96 270)
+		(at 129.54 171.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5105,7 +4826,7 @@
 		(fields_autoplaced yes)
 		(uuid "9375f597-c3d1-4a37-9630-cefa9dcc82fe")
 		(property "Reference" "#PWR07"
-			(at 125.73 187.96 0)
+			(at 125.73 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +4837,7 @@
 			)
 		)
 		(property "Value" "OUT +"
-			(at 133.35 187.9599 90)
+			(at 133.35 171.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5127,7 +4848,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 187.96 0)
+			(at 129.54 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5138,7 +4859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 187.96 0)
+			(at 129.54 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +4870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"LINE\""
-			(at 129.54 187.96 0)
+			(at 129.54 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 142.24 0)
+		(at 90.17 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5452,7 +5173,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2289d4c-f9da-4ebe-8bef-377b97a4baf5")
 		(property "Reference" "#PWR06"
-			(at 90.17 148.59 0)
+			(at 90.17 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5463,7 +5184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 147.32 0)
+			(at 90.17 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5473,7 +5194,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 142.24 0)
+			(at 90.17 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5484,7 +5205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 142.24 0)
+			(at 90.17 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,7 +5216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 142.24 0)
+			(at 90.17 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
